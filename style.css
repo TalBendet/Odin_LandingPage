@@ -1,0 +1,29 @@
+/* CSS stylesheet for Odin_LandingPage */
+
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header .links {
+    display: flex;
+    gap: 30px;
+}
+
+.one {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.one .text {
+    width: 300px;
+}
