@@ -4,6 +4,12 @@ body {
     display: flex;
     flex-direction: column;
     gap: 100px;
+    margin: 0% 15%;
+}
+
+img {
+    width: 300px;
+    height: 200px;
 }
 
 .header {
@@ -26,4 +32,67 @@ body {
 
 .one .text {
     width: 300px;
+}
+
+.two {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    margin: 0px 300px;
+}
+
+.two .title {
+    display: flex;
+    justify-content: center;
+}
+
+.two .images {
+    display: flex;
+    justify-content: space-around;
+}
+
+.two .images .image {
+    width: 300px;
+    min-width: 200px;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.two img {
+    width: 150px;
+    height: 150px;
+}
+
+.three {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.three .quote {
+    text-align: center;
+    width: 800px;
+}
+
+.three .author {
+    text-align: right;
+    width: 800px;
+}
+
+.four {
+    flex:1;
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    background: red;
+    
+}
+
+.four .fourchild {
+    background: blue;
+    width: 800px;
 }
