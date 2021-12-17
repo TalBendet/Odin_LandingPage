@@ -3,8 +3,6 @@
 body {
     display: flex;
     flex-direction: column;
-    gap: 100px;
-    margin: 0% 15%;
 }
 
 img {
@@ -15,6 +13,8 @@ img {
 .header {
     display: flex;
     justify-content: space-around;
+    padding: 10px 10px 50px 10px;
+    background-color: blue;
 }
 
 .header .links {
@@ -28,6 +28,8 @@ img {
     justify-content: space-around;
     flex-wrap: wrap;
     gap: 10px;
+    padding: 10px 10px 50px 10px;
+    background-color: red;
 }
 
 .one .text {
@@ -38,7 +40,8 @@ img {
     display: flex;
     flex-direction: column;
     gap: 2em;
-    margin: 0px 300px;
+    padding: 10px 10px 50px 10px;
+    background-color: blue;
 }
 
 .two .title {
@@ -49,6 +52,9 @@ img {
 .two .images {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 0px;
+    row-gap: 3em;
 }
 
 .two .images .image {
@@ -71,28 +77,46 @@ img {
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
+    padding: 80px 10px 50px 10px;
+    background-color: red;
 }
 
+
 .three .quote {
-    text-align: center;
-    width: 800px;
+    text-align: left;
+    width: 500px;
 }
 
 .three .author {
     text-align: right;
-    width: 800px;
+    width: 500px;
 }
 
 .four {
-    flex:1;
     display: flex;
     justify-content: center;
-    width: 1200px;
-    background: red;
-    
+    align-items: center;
+    padding: 60px 50px 60px 50px;
+    background: white;
 }
 
 .four .fourchild {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: space-between;
+    padding: 30px 60px 30px 60px;
     background: blue;
-    width: 800px;
+    border-radius: 8px;
+    word-wrap: break-word;
+}
+
+.four .fourchild .text {
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px 20px 10px;
+    background-color: red;
 }
