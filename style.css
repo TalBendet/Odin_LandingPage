@@ -3,6 +3,8 @@
 body {
     display: flex;
     flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
 }
 
 img {
@@ -10,16 +12,30 @@ img {
     height: 200px;
 }
 
+button {
+    background-color: #3882F6;
+    border: none;
+    color: #E5E7EB;
+    padding: 6px 28px;
+    border-radius: 10px;
+}
+
 .header {
     display: flex;
     justify-content: space-around;
     padding: 10px 10px 50px 10px;
-    background-color: blue;
+    background-color: #1F2937;
+    font-size: 24px;
+    font-weight: bold; 
+    color: #F9FAF8;
 }
 
 .header .links {
     display: flex;
     gap: 30px;
+    font-size: 18px; 
+    font-weight: 400;
+    color: #E5E7EB;
 }
 
 .one {
@@ -29,11 +45,23 @@ img {
     flex-wrap: wrap;
     gap: 10px;
     padding: 10px 10px 50px 10px;
-    background-color: red;
+    background-color: #1F2937;
 }
 
 .one .text {
-    width: 300px;
+    width: 500px;
+    font-size: 18px; 
+    color: #E5E7EB;
+}
+
+.one .text .title {
+    font-size: 48px;
+    font-weight: bolder; 
+    color: #F9FAF8;
+}
+
+.one .text .button {
+    margin: 20px 0px 0px 0px;
 }
 
 .two {
@@ -41,12 +69,14 @@ img {
     flex-direction: column;
     gap: 2em;
     padding: 10px 10px 50px 10px;
-    background-color: blue;
 }
 
 .two .title {
     display: flex;
     justify-content: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
 }
 
 .two .images {
@@ -55,11 +85,12 @@ img {
     flex-wrap: wrap;
     gap: 0px;
     row-gap: 3em;
+    padding: 0px 200px;
 }
 
 .two .images .image {
-    width: 300px;
-    min-width: 200px;
+    width: 150px;
+    min-width: 150px;
     max-width: 300px;
     display: flex;
     flex-direction: column;
@@ -78,18 +109,28 @@ img {
     flex-wrap: wrap;
     align-items: center;
     padding: 80px 10px 50px 10px;
-    background-color: red;
+    background-color: #E5E7EB;
 }
 
 
 .three .quote {
     text-align: left;
-    width: 500px;
+    width: 750px;
+    min-width: 500px;
+    max-width: 750px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
 }
 
 .three .author {
     text-align: right;
-    width: 500px;
+    width: 750px;
+    min-width: 500px;
+    max-width: 750px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #1F2937;
 }
 
 .four {
@@ -106,17 +147,27 @@ img {
     gap: 30px;
     justify-content: space-between;
     padding: 30px 60px 30px 60px;
-    background: blue;
+    background: #3882F6;
     border-radius: 8px;
     word-wrap: break-word;
+    font-size: 14px;
+    color: #E5E7EB;
 }
 
-.four .fourchild .text {
+.four .fourchild .headertext {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+button.button {
+    border: 2px solid white;
+    font-weight: bold;
 }
 
 .footer {
     display: flex;
     justify-content: center;
     padding: 10px 10px 20px 10px;
-    background-color: red;
+    background-color: #1F2937;
+    color: #F9FAF8;
 }
